@@ -1,44 +1,19 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
     <link rel="stylesheet" href="styles.css">
-    <script src="styles.js"></script>
-    
+    <title>To Do List</title>
 </head>
 <body>
+    <h1>To Do List</h1>
     <div class="container">
-        <div class="row">
-            <!-- <div> -->
-                <input class="inside-row" type="text" placeholder="Write Your Name Here...">
-                <button class="inside-row" type="submit">Submit</button>
-            <!-- </div> -->
-            <div class="coloumn">
-                <!-- <div> -->
-                    <ul>
-                        <li>Jessy</li>
-                        <li>Jack</li>
-                        <li>Joana</li>
-                        <li>Josh</li>
-                        <li>Jacob</li>
-                    </ul>
-                    <!-- </div> -->
-                </div>
-            </div>
+        <input type="text" id="inputField">
+        <button id="addTodo">+</button>
+        <div class="to-dos" id="toDoContainer">
         </div>
     </div>
-    <!-- <div class="container">
-        <div class="four">
-            <input class="one" type="text" placeholder="Tambah List">
-            <button class="two">Tambah</button>
-        </div>
-        <ul class="three">
-            <li class="five">List 1 </li>
-            <li class="five">List 2 </li>
-            <li class="five">List 3 </li>
-        </ul>
-    </div> -->
+    <script src="main.js"></script>
 </body>
 </html>

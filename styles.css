@@ -1,43 +1,37 @@
+/* html,
 body {
-    /* margin: 0; */
-    background-color: #c4c4c4;
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-    background-color: #fff;
-    min-height: 50vh;
+    width: 60px;
+}
+
+#inputField {
     width: 300px;
-    margin: 20px auto;
-    padding: 10px;
-    
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
 }
 
-.row {
-    /* background: turquoise; */
-    display: block;
-    justify-items: stretch;
-    position: relative;
-    padding: 0 3px;
-    margin: 5px;
+#addTodo {
+    height: 50px;
+    width: 50px;
+    border: 1 px solid black;
+    vertical-align: middle;
+    font-size: 30px;
 }
 
-.inside-row {
-    /* background: wheat; */
-    font-size: 15px;
-    padding: 8px ;
+.to-dos {
+    margin-top: 25px;
 }
 
-.row button {
-    background: lightcoral;
-} 
-
-li {
-    font-family: sans-serif;
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
     font-size: 20px;
-    list-style: none;
-    margin-left: -40px;
-    margin-top: 2px;
-    position: relative;
-    padding: 8px 5px;
-    border: 2px solid black;
-}
+} */
