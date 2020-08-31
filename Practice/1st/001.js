@@ -42,3 +42,5 @@ if (nilai >= 80 && nilai <= 100) {
 
 
 
+// boleh pake sudut pandang orang pertama atau org ketiga
+// 

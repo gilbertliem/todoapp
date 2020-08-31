@@ -35,16 +35,16 @@ function addTitle(people) {
     let result = '';
     for (let i = 0; i < people.length; i++) {
         if (people[i][1] === 'male') {
-            result += `Mr. ${people[i][0]}`;
+            result += ` Mr. ${people[i][0]}`;
             // console.log(result);
-        } else if (people[i][1] === 'female' && people[i][2] === 'true') {
-            result += `Mrs. ${people[i][0]}`;
-        } else if (people[i][1] === 'female' && people[i][2] === 'false') {
-            result += `Ms. ${people[i][0]}`;
+        } else if (people[i][1] === 'female' && people[i][2]) {
+            result += ` Mrs. ${people[i][0]}`;
+        } else if (people[i][1] === 'female' && !people[i][2]) {
+            result += ` Ms. ${people[i][0]}`;
         }
-        console.log(result);
-        // return result;
+        // console.log(result);
     }
+    return result;
 }
 
 console.log(addTitle([
