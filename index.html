@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todolist API</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="the-header" id="the-header">
-            <h1>My To-Do List</h1>
-            <input type="text" id="the-input" placeholder="Write here..">
-            <span onclick="createNewElement()" class="create-button">Create</span>
+        <div id="addTodo">
+            <input type="text" id="idInput" placeholder="Write here" />
+            <button id="addItem">Add</button>
         </div>
-        <ul id="the-ul">
-            <li>Groceries</li>
-            <li>Walk the dog</li>
-            <li>Watch Movie</li>
-            <li>Hangout</li>
-        </ul>
+        <div class="addTodo">
+            <ul id="lists">
+
+            </ul>
+        </div>
     </div>
-    <script src="main.js"></script>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

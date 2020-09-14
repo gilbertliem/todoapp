@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #idInput {
+    padding: 1em 2em;
+    border: none;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    border-radius: 3px;
+  }
+  
+  #addItem {
+    padding: 1em 2em;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: #1477da;
+    color: #fff;
+  }
+  
+  .addTodo {
+    margin-top: 30px;
+  }
+  
+  #lists {
+    list-style: none;
+  }
+  
+  #lists li {
+    margin-bottom: 20px;
+  }
+  
+  #lists span {
+    padding: 6px 10px;
+    background-color: #8ec5fc;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #fff;
+  }
+  
+  #lists span:first-of-type {
+    margin-right: 3px;
+    margin-left: 20px;
+    background-color: rgb(218, 101, 101);
+    font-weight: 800;
+  }
